@@ -1,0 +1,39 @@
+/* body{
+    background-color: blue;
+} */
+
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    justify-content: center;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    border: 1px solid green;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+li{
+    list-style: none;
+    display: inline;
+    gap: 20px;
+    
+
+}
+a{
+    text-decoration: none;
+}
