@@ -21,15 +21,23 @@
     color: #ffffff;
     font-size: 18px;
     font-weight: 500px;
+    /* margin-left: 10px; */
+    margin-right: 20px;
+    
+
 
 
 }
 
 /* main design */
-header{
+header {
     background-color: #FFF8F3
     ;
-    padding: 50px 0px 50px 0px ;
+    background-image: url(../images/developer.png) ,url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+
+    padding-top: 50px;
 }
 .logo h2{
     font-size: 35px;
@@ -67,4 +75,49 @@ nav .menu{
     text-decoration: none;
     color: #1d1d1d;
 }
+#banner{
+    /* border: 1px solid red; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
+}
+
+#banner .banner-content{
+    max-width: 585px;
+
+}
+
+
+
+#banner .banner-content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom:5px;
+}
+
+#banner .banner-content h1{
+    color: #474747;
+    font-size: 85px;
+    font-weight: 900px;
+    margin-bottom:30px;
+}
+
+#banner .banner-content p{
+    color: #171717;
+    font-size: 18px;
+    font-weight:normal;
+    margin-bottom:30px;
+}
+
+
+#banner .banner-img{
+    width: 585px;
+    vertical-align: middle;
+    
+
+
+}
