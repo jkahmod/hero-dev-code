@@ -217,15 +217,17 @@ nav .menu{
 }
 
 #resume {
-     padding-top: 150px;
+     padding: 150px 0 150px 0 ;
+
 
 }
+
 #resume .resume-container{
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;  
-    background-color: #FFF8F3;
     display: flex;
+    gap: 50px;
     padding: 30px;
 }
 #resume .resume-heading h2 {
@@ -235,8 +237,9 @@ nav .menu{
 
 }
 #resume .card-title{
-    font-size: 25px;
-    margin-bottom: 10px;
+
+    font-size: 22px;
+    margin: 10px 0 10px 0;
 }
 #resume .card-info{
     font-size: 20px;
